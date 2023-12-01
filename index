@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campionario di Immagini</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+
+        h1 {
+            text-align: center; /* Center the text */
+        }
+
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(2);
+        }
+
+        .gallery figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'roboto', cursive; /* Aggiunto il font Comic Sans MS */
+    color: #333; /* Cambia il colore del testo a tua scelta */
+}
+    </style>
+</head>
+<body>
+    <h1>Campionario di Immagini SEAMLESS</h1>
+
+    <div class="gallery">
+        <figure>
+            <img src="images\ASTRATTO_01_50x50cm.jpg" alt="Immagine 1">
+            <figcaption>ASTRATTO 01 MISURE DISPONIBILI "500*500 / 1250 * 1250</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images\ASTRATTO_02_50x50cm.jpg" alt="Immagine 2">
+            <figcaption>ASTRATTO 01 MISURE DISPONIBILI "500*500 / 1250 * 1250</figcaption>
+        </figure>
+        <figure>
+            <img src="images\FLOREALE_02_50x50cm.jpg" alt="Immagine 3">
+            <figcaption>FLOREALE 02 MISURE DISPONIBILI "500*500 / 1250 * 1250</figcaption>
+        </figure>
+        <figure>
+            <img src="images\FLOREALE_03_50x50cm.jpg" alt="Immagine 4">
+            <figcaption>FLOREALE 03 MISURE DISPONIBILI "500*500 / 1250 * 1250</figcaption>
+        </figure>
+        <figure>
+            <img src="images\FLUIDO_01_50x50cm.jpg" alt="Immagine 5">
+            <figcaption>FLUIDO 01 MISURE DISPONIBILI "500*500 / 1250 * 1250</figcaption>
+        </figure>
+        <figure>
+            <img src="images\GEOMETRICO_01_50x50cm.jpg" alt="Immagine 6">
+            <figcaption>GEOMETRICO 01 MISURE DISPONIBILI "500*500 /    1250 * 1250</figcaption>
+         </figure>
+         <figure>
+            <img src="images\MURO_01_50x50cm.jpg" alt="Immagine 7">
+            <figcaption>MURO 01 MISURE DISPONIBILI "500*500 / 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\carta sfumato.jpg" alt="Immagine 8">
+            <figcaption>CARTA SFUMATO MISURE DISPONIBILI "500*500 / 1250 * 1250 1500*1500 </figcaption>
+        </figure>
+ <figure>
+            <img src="images\carta vintage 620x620.jpg" alt="Immagine 9">
+            <figcaption>CARTA VINTAGE "620*620 / 1240 * 1240</figcaption>
+        </figure>
+ <figure>
+            <img src="images\legno quadrati.jpg" alt="Immagine 10">
+            <figcaption>LEGNO QUADRATI "500*500 / 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\mattone grigio.jpg" alt="Immagine 11">
+            <figcaption>MATTONE GRIGIO "500*500 / 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\legno box.jpg" alt="Immagine 12">
+            <figcaption>LEGNO BOX "500*500 / 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\cemento.jpg" alt="Immagine 13">
+            <figcaption>CEMENTO "500*500 / 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\optical.jpg" alt="Immagine 13">
+            <figcaption>OPTICAL MISURE DISPONIBILI "500*500 / 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\roccia.jpg" alt="Immagine 14">
+            <figcaption>ROCCIA MISURE DISPONIBILI "500*500 / 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\vintage.jpg" alt="Immagine 15">
+            <figcaption>VINTAGE "500*500 / 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\edera.jpg" alt="Immagine 16">
+            <figcaption>EDERA MISURE A SCELTA DEL CLIENTE</figcaption>
+        </figure>
+ <figure>
+            <img src="images\pattern_pietra_insieme.jpeg" alt="Immagine 17">
+            <figcaption>PIETRA 1250x1250 PER MANTENERE GRANDEZZA PIETRA</figcaption>
+        </figure>
+ <figure>
+            <img src="images\granito.png" alt="Immagine 18">
+            <figcaption>GRANITO 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\pietra b11.png" alt="Immagine 19">
+            <figcaption>PIETRA B11 1250 * 1250</figcaption>
+        </figure>
+ <figure>
+            <img src="images\Foglie-520mm.jpg" alt="Immagine 20">
+            <figcaption>FOGLIE misure 520x520 / 1040*1040</figcaption>
+        </figure>
+
+ <figure>
+            <img src="images\Frutta-520mm.jpg" alt="Immagine 21">
+            <figcaption>FRUTTA 520x520 / 1040*1040</figcaption>
+        </figure>
+ <figure>
+            <img src="images\Tessuto-quadretti-520mm.jpg" alt="Immagine 22">
+            <figcaption>TESSUTO QUADRETTI 520x520 / 1040*1040</figcaption>
+        </figure>
+<figure>
+            <img src="images\Cubi-520mm.jpg" alt="Immagine 23">
+            <figcaption>CUBI 520x520 / 1040*1040</figcaption>
+        </figure>
+
+        <figure>
+            <!-- Repeat the pattern for each image -->
+            <!-- Add more figures with images and captions as needed -->
+        </figure>
+    </div>
+</body>
+</html>
